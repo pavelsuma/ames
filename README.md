@@ -1,2 +1,3 @@
-# ames
-AMES: Asymmetric and Memory-Efficient Similarity
+# AMES: Asymmetric and Memory-Efficient Similarity
+
+Code will be released soon...
