@@ -1,0 +1,6 @@
+
+defaults:
+  - rparis
+
+name: 'rparis6k+1m'
+test_gnd_file: 'gnd_rparis6k+1m.pkl'

@@ -1,0 +1,11 @@
+defaults:
+  - dataset@test_dataset: roxford
+  - model: ames
+  - _self_
+
+data_root:
+cpu: False
+resume:
+seed: 0
+num_workers: 8
+desc_name: 'dinov2'

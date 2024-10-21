@@ -1,0 +1,8 @@
+
+defaults:
+  - test_dataset
+
+name: 'gldv2-val'
+test_gnd_file: 'gnd_gldv2-test.pkl'
+desc_dir: ${data_root}/features/gldv2-test
+test_data_dir: ${data_root}/features/gldv2-test

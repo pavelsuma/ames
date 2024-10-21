@@ -1,0 +1,24 @@
+
+name:
+desc_dir: ${data_root}/${test_dataset.name}
+test_data_dir: ${data_root}/${test_dataset.name}
+test_gnd_file:
+batch_size: 300
+query_sequence_len: 200
+sequence_len: 200
+nn_file: 'nn_superglobal.pkl'
+sampler: 'random'
+
+num_rerank:
+  - 100
+  - 400
+lamb:
+  - 0.5
+temp:
+  - 0.5
+
+pin_memory : True
+recalls:
+  - 1
+  - 5
+  - 10

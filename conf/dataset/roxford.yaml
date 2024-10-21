@@ -1,0 +1,6 @@
+
+defaults:
+  - test_dataset
+
+name: 'roxford5k'
+test_gnd_file: 'gnd_roxford5k.pkl'

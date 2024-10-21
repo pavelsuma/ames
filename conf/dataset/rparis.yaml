@@ -1,0 +1,6 @@
+
+defaults:
+  - test_dataset
+
+name: 'rparis6k'
+test_gnd_file: 'gnd_rparis6k.pkl'

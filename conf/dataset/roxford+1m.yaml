@@ -1,0 +1,6 @@
+
+defaults:
+  - roxford
+
+name: 'roxford5k+1m'
+test_gnd_file: 'gnd_roxford5k+1m.pkl'
