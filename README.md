@@ -51,8 +51,9 @@ python3 -u src/evaluate.py --multirun \
         test_dataset.query_sequence_len=600 \
         test_dataset.sequence_len=50 \
         test_dataset.batch_size=300 \
-        test_dataset.lamb=0.55 \
-        test_dataset.temp=0.3 \
+        test_dataset.lamb=[0.55] \
+        test_dataset.temp=[0.3] \
+        test_dataset.num_rerank=[100]
 ```
 
 Hyperparameters used for our best performing AMES experiments, tuned on GLDv2 public test split, are as follows:
