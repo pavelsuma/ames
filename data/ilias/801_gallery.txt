@@ -1,0 +1,4 @@
+snappy_squizzleroo_801/pos/P801_00.jpg,801,500,335
+snappy_squizzleroo_801/pos/P801_01.jpg,801,500,335
+snappy_squizzleroo_801/pos/P801_02.jpg,801,500,335
+snappy_squizzleroo_801/pos/P801_03.jpg,801,500,335

@@ -17,7 +17,6 @@ def find_divisors(number):
     divisors = divisors[number % divisors == 0]
     return divisors
 
-
 def calculate_receptive_boxes(imsize, ps):
     imsize = torch.tensor(imsize)
     pc_x, pc_y = imsize // ps

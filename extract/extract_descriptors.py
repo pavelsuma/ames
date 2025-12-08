@@ -36,7 +36,7 @@ def main():
     im_paths = read_imlist(os.path.join(save_path, args.file_name))
 
     if args.backbone == 'dinov2':
-        global_dim = local_dim = 768
+        global_dim = local_dim = 768 #TODO: confirm dimensions
         extract_f = partial(extract_dino, im_paths=im_paths)
         model = load_dinov2()
         scale_list = [1.]

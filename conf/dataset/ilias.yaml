@@ -1,0 +1,18 @@
+# conf/dataset/test_dataset/ilias.yaml
+name: ilias
+data_root: data/ilias  # Base path for your txt files
+query_list: test_query.txt
+db_list: test_gallery.txt
+# Adjust these filenames if yours are different
+query_feat_file: dinov2_query_local.hdf5 
+db_feat_file: dinov2_gallery_local.hdf5
+# KNN file
+knn_file: nn_dinov3.pkl
+
+# Hyperparameters you specified
+query_desc_num: 600
+db_desc_num: 600
+batch_size: 300
+lamb: [0.55]
+temp: [0.3]
+num_rerank: [1600]
